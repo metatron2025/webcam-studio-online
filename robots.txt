@@ -1,0 +1,24 @@
+User-Agent: *
+Disallow: /page35105784.html
+Disallow: /errorru
+Disallow: /page35105894.html
+Disallow: /header
+Disallow: /page35105963.html
+Disallow: /podval
+Disallow: /tilda/form*
+Disallow: /tilda/rec*
+Disallow: /tilda/click*
+Disallow: /tilda/scroll*
+Disallow: /tilda/popup*
+Disallow: /tilda/cart*
+Disallow: /tilda/product*
+Disallow: /tilda/event*
+Disallow: /*_escaped_fragment_*
+Disallow: /members/login*
+Disallow: /members/signup*
+Disallow:
+
+
+Sitemap: https://webcam-studio.online/sitemap.xml
+Sitemap: https://webcam-studio.online/sitemap-feeds.xml
+Host: https://webcam-studio.online

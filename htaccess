@@ -1,0 +1,37 @@
+ErrorDocument 403 /page35105784.html
+ErrorDocument 404 /page35105784.html
+
+DirectoryIndex page18390313.html
+
+RewriteEngine On
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =http
+RewriteRule ^(.*)$ https://webcam-studio\.online/$1 [R=301,L]
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =https
+RewriteCond %{HTTP_HOST} ^www\.webcam-studio.online [NC]
+RewriteRule ^(.*)$ https://webcam-studio\.online/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^form$ page18525698.html [NC]
+RewriteRule ^form/$ page18525698.html [NC]
+
+RewriteRule ^top$ page36933397.html [NC]
+RewriteRule ^top/$ page36933397.html [NC]
+
+RewriteRule ^errorru$ page35105784.html [NC]
+RewriteRule ^errorru/$ page35105784.html [NC]
+
+RewriteRule ^5000p$ page18451424.html [NC]
+RewriteRule ^5000p/$ page18451424.html [NC]
+
+RewriteRule ^members/ ma_start.html [NC]
+
+
+<IfModule mod_headers.c>
+	Header set X-Content-Type-Options nosniff
+	Header set X-XSS-Protection "1; mode=block"
+</IfModule>
+
