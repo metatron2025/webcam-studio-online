@@ -18,7 +18,4 @@ Disallow: /members/login*
 Disallow: /members/signup*
 Disallow:
 
-
-Sitemap: https://webcam-studio.online/sitemap.xml
-Sitemap: https://webcam-studio.online/sitemap-feeds.xml
-Host: https://webcam-studio.online
+Sitemap: https://webcam-studio-online.netlify.app/sitemap.xml
